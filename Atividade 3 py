@@ -1,0 +1,17 @@
+1.def funcao():
+    n1 = float(input('Digite seu numero:'))
+    n2 = float(input('Digite seu numero:'))
+  
+
+    multi = n1*n2
+
+    print('o resultado da multiplicacao',multi)
+
+funcao()
+
+2.def nome():
+    nome = input('Digite seu nome:')
+    insi = silva
+    
+    print(nome,insi)
+nome()
