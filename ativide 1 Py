@@ -1,0 +1,227 @@
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+numero3 = float(input("Digite o terceiro número: "))
+
+media = (numero1 + numero2 + numero3) / 3
+
+print("A média é: ", media)
+
+2.
+
+numero1 = float(input("Digite o primerio numero:"))
+numero2 = float(input("Digite o segundo numero:"))
+
+soma = numero1 + numero2
+
+print(soma)
+
+3.
+
+idade = float(input("Digite sua idade:"))
+
+dias = idade * 365
+
+print(dias)
+
+4.
+
+numero = float(input("Digite seu numero:"))
+
+QUALDRADO = numero * numero
+
+print(QUALDRADO)
+
+5.
+
+n1 = ("Digite um numero para falar se é par ou impar")
+
+if (n1):
+    print("Esse numero é impar:")
+else:
+    print("esse numero é par")
+6.
+
+mt = float(input("metros: "))
+
+mc =  mt * 100
+
+print(mc)
+
+7.
+
+salario = float(input("seu salario:"))
+
+hora = float(input("suas horas trabalhada:"))
+
+soma = (salario * hora)*3
+
+print(soma)
+
+8.
+
+raio = float(input("fale o raio:"))
+area = 3.14 * (raio ** 2)
+print (area)
+
+9.
+
+lado = float(input("fale o lado:"))
+
+x = lado *lado
+
+print(x)
+
+10.
+
+salario = float(input("fale meu salario:"))
+
+print(salario*5,salario*15,salario*30)
+
+11.
+
+nome = input("Qual seu nome:")
+idade = float(input("sua idade:"))
+apelido = input("seu apelido:")
+
+print("ola",nome,"como vc esta,",apelido,"hoje vc tem,",idade)
+
+SEGUNDA ATIVIDADE
+
+1.
+
+n1 = float(input("seu numero:"))
+n2 = float(input("seu numero:"))
+
+if (n1>n2):
+    print(n1,"esse numero é maoir que o outro")
+else:
+    print(n2,"esse numero é maior que o outro")
+
+2.
+
+n1 = float(input("seu numero:"))
+n2 = float(input("seu numero:"))
+
+if (n1<n2):
+    print(n1,"esse numero é maoir que o outro")
+else:
+    print(n2,"esse numero é maior que o outro")
+
+3.
+
+n1 = float(input("seu numero:"))
+n2 = float(input("seu numero:"))
+
+if (n1<n2):
+    print(n1,"esse numero é maoir que o outro")
+elif (n1 > n2):
+    print(n2,"esse numero é maior que o outro")
+else:
+    print("esses numeros sao iguais")
+
+4.
+
+nm = input("seu nome:")
+nm1 = input("seu nome:")
+sl = float(input("seu salario:"))
+sl1 = float(input("seu salario:"))
+
+x= sl- sl1
+y= sl1- sl
+if (sl>sl1):
+    print(nm,"seu salario é mais que",nm1,"com a diferenca de",x)
+else:
+    print(nm1,"seu salario é mais que",nm,"com a diferenca de",y)
+
+5.
+
+peso = float(input("Fale seu peso:"))
+
+altura = float(input("Fale sua altura:"))
+
+imc= peso/(altura*altura)
+
+if(imc<18.5):
+    print("vc esta abaixo do peso")
+elif(imc>18.5 and imc<24.9):
+    print("vc esta com o peso ideal")
+else:
+    print("vc esta acima do peso")
+
+6.
+
+sexo = float(input("digite seu sexo, 1 para femenino e 2 para mascolino:"))
+
+idade = float(input("fale sua idade:"))
+
+if(idade>18 and sexo == 1):
+    print("parabéns voce é maior de idade")
+elif(idade<18 and sexo == 1):
+    print("Voce ainda não tem idade suficiante")
+elif(sexo ==1 and idade >18 ):
+    print("vc é feminina")
+else:
+    print("vc é masculino")
+
+7.
+
+n1 = float(input("fale um numero:"))
+n2 = float(input("fale outro numero:"))
+n3 = float(input("fale o ultimo:"))
+
+if(n1>n2 and n2>n3):
+    print("",n1,n2,n3)
+elif(n2>n1 and n1>n3):
+    print("",n2,n1,n3)
+elif(n3>n2 and n2>n1):
+    print("",n3,n2,n1)
+
+8.
+n1 = float(input("fale um numero:"))
+n2 = float(input("fale outro numero:"))
+
+soma = n1+n2
+
+if(soma % 2 == 0 and soma % 2 > 0):
+    print("+par")
+elif(soma % 2 != 0 and soma % 2 > 0):
+    print("+impar")
+   
+elif soma % 2 != 0 and soma % 2<0:
+    print("-par")
+else:
+    print("-impar")
+9.
+
+n1 = float(input("numero 1:"))
+n2 = float(input("numero 2:"))
+
+soma= n1+n2
+
+if (soma == 40 or soma >= 25 and soma <=33):
+    print("É isso ai")
+
+10.
+
+idade = float(input("Fale sua idade:"))
+
+if(idade <18):
+    print("vc é menor de idade, Vc não pode entra no bar do Brasil nem nos E.U.A")
+elif(idade >= 18 or idade <21):
+    print("Vc pode ir no bar no Brasil,mais no E.U.A nao pode.")
+else:
+    print("Vc pode ir nos dois bares no Brasil e no E.U.A.")
+   
+11.
+
+altura = float(input("Fale sua altura:"))
+idade = float(input("Fale sua idade:"))
+acom = input("1 para acompanhado e 2 para nao acompanhado: ")
+if(altura >1.60 and idade >= 16):
+    print("Parabens vc pode entrar no Parque")
+elif(altura < 1.50 or acom =='1'):
+    print("Vc esta com acompanhante")
+elif(altura <1.50 and idade>18):
+    print('vc nao tem a altura nessesaria mais tem mais de 18,porem vc tera que assinar um termo para ir no brinquedo')
+else:
+    print('não poderá usar os brinquedos mesmo que esteja acompanhado, mas lhe será recomendado passeios menos perigosos') 
